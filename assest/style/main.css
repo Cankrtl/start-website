@@ -259,7 +259,7 @@ communication-text p {
     padding-left: 30px;
     padding-right: 30px;
   }
-  .header-img{
+  .header-main .header-img img{
     width: 100%;
   }
 }
