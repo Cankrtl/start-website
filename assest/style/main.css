@@ -36,6 +36,10 @@ header {
   width: 40px;
 }
 
+.hamburger-menu{
+  display: flex;
+}
+
 .hidden-hamburger {
   display: flex;
   gap: 30px;
@@ -259,8 +263,18 @@ communication-text p {
     padding-left: 30px;
     padding-right: 30px;
   }
+
+  .hidden-hamburger{
+    display: none;
+  }
+
   .header-main .header-img img{
     width: 100%;
+  }
+
+  .header-main{
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
