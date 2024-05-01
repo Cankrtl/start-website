@@ -23,6 +23,18 @@
   gap: 10px;
 }
 
+.form-input .message-box{
+  height: 70px;
+}
+
+.form-input .submit-btn{
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
 .contact-us-submit{
   display: flex;
   justify-content: center;
@@ -33,13 +45,12 @@
 .contact-us-submit input{
   width: 400px;
   height: 30px;
+  background-color: #EEEEEE;
+  border-radius: 5px;
 }
 
-.submit-btn{
-  border: none;
-  border-radius: 5px;
-  background-color: black;
-  color: white;
+.hamburger-menu{
+  display: none;
 }
 
 @media screen and (max-width: 801px){
@@ -49,4 +60,20 @@
     flex-wrap: wrap;
     align-items: center;
   }
+
+  .hidden-hamburger{
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+  .hamburger-menu button{
+    border: none;
+    background: none;
+  }
+
+  .portfolio-text p {
+    text-align: center;
+  } 
 }

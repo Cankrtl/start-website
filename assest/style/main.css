@@ -37,7 +37,7 @@ header {
 }
 
 .hamburger-menu{
-  display: flex;
+  display: none;
 }
 
 .hidden-hamburger {
@@ -275,6 +275,14 @@ communication-text p {
   .header-main{
     display: flex;
     flex-direction: column-reverse;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+  .hamburger-menu button{
+    border: none;
+    background: none;
   }
 }
 

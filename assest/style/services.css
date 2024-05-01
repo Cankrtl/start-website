@@ -70,3 +70,25 @@ main section{
   height: 14px;
   color: green;
 }
+
+.hamburger-menu{
+  display: none;
+}
+
+@media screen and (max-width: 801px){
+  section {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .hidden-hamburger{
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
+  }
+  .hamburger-menu button{
+    border: none;
+    background: none;
+  }
+}
